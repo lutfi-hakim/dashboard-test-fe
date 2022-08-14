@@ -1,0 +1,80 @@
+
+.menus {
+  /* background: #ffffff; */
+  /* border-radius: 8px; */
+  position: absolute;
+  top: 125px;
+  /* right: 0; */
+  /* width: 300px; */
+  /* box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3); */
+  opacity: 0;
+  visibility: hidden;
+  /* transform: translateY(-20px); */
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+  margin-left: 20px;
+}
+
+.menus.actives {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  color: #FDC300;
+}
+
+.menus ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menus li {
+  /* border-bottom: 1px solid #dddddd; */
+}
+
+.menus li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 500;
+  padding: 15px 20px;
+  display: block;
+}
+
+img.icon {
+  font-size: 13px;
+  color: #91A5BE;
+  transform: rotate(0deg);
+  transition: all .2s ease-in-out;
+}
+
+img.icon.open {
+  transform: rotate(90deg);
+}
+
+/* .menus-trigger {
+  background: #ffffff;
+  border-radius: 90px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border: none;
+  vertical-align: middle;
+  transition: box-shadow 0.4s ease;
+} */
+
+/* .menus-trigger:hover {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+} */
+
+/* .menus-trigger span {
+  font-weight: 700;
+  vertical-align: middle;
+  font-size: 14px;
+  margin: 0 10px;
+} */
+
+/* .menus-trigger img {
+  border-radius: 90px;
+} */

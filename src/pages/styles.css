@@ -1,0 +1,44 @@
+.dashboard-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: auto;
+}
+.dashboard-content-container {
+    margin: 1em;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    overflow: auto;
+}
+
+.icon-act{
+    display: flex;
+}
+.icon-act img.act-i{
+    width: 15px;
+    margin: 5px;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #b7b7b7;
+    border-radius: 5px;
+    padding: 3px;
+}
+.dataTables_wrapper .dataTables_filter {
+    float: left !important; 
+    text-align: left !important;
+}
+
+.dt-buttons{
+    float: right !important;
+    text-align: right !important;
+}
+
+.dataTables_length{
+    color: #FFFFFF !important;
+}
